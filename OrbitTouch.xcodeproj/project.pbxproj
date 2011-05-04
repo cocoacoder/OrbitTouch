@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6AF0E55137102A7009558F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AF0E54137102A7009558F4 /* UIKit.framework */; };
+		E6AF0E57137102A7009558F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AF0E56137102A7009558F4 /* Foundation.framework */; };
+		E6AF0E59137102A7009558F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AF0E58137102A7009558F4 /* CoreGraphics.framework */; };
+		E6AF0E5B137102A7009558F4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AF0E5A137102A7009558F4 /* CoreData.framework */; };
+		E6AF0E61137102A7009558F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6AF0E5F137102A7009558F4 /* InfoPlist.strings */; };
+		E6AF0E64137102A7009558F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AF0E63137102A7009558F4 /* main.m */; };
+		E6AF0E67137102A7009558F4 /* OrbitTouchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AF0E66137102A7009558F4 /* OrbitTouchAppDelegate.m */; };
+		E6AF0E6A137102A7009558F4 /* OrbitTouch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6AF0E68137102A7009558F4 /* OrbitTouch.xcdatamodeld */; };
+		E6AF0E6D137102A7009558F4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6AF0E6B137102A7009558F4 /* MainWindow.xib */; };
+		E6AF0E70137102A7009558F4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AF0E6F137102A7009558F4 /* RootViewController.m */; };
+		E6AF0E73137102A7009558F4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6AF0E71137102A7009558F4 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6AF0E50137102A7009558F4 /* OrbitTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6AF0E54137102A7009558F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6AF0E56137102A7009558F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6AF0E58137102A7009558F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6AF0E5A137102A7009558F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E6AF0E5E137102A7009558F4 /* OrbitTouch-Info.plist */ = {isa = PBXFileReference; path = "OrbitTouch-Info.plist"; sourceTree = "<group>"; };
+		E6AF0E60137102A7009558F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6AF0E62137102A7009558F4 /* OrbitTouch-Prefix.pch */ = {isa = PBXFileReference; path = "OrbitTouch-Prefix.pch"; sourceTree = "<group>"; };
+		E6AF0E63137102A7009558F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6AF0E65137102A7009558F4 /* OrbitTouchAppDelegate.h */ = {isa = PBXFileReference; path = OrbitTouchAppDelegate.h; sourceTree = "<group>"; };
+		E6AF0E66137102A7009558F4 /* OrbitTouchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitTouchAppDelegate.m; sourceTree = "<group>"; };
+		E6AF0E69137102A7009558F4 /* OrbitTouch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrbitTouch.xcdatamodel; sourceTree = "<group>"; };
+		E6AF0E6C137102A7009558F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E6AF0E6E137102A7009558F4 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		E6AF0E6F137102A7009558F4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E6AF0E72137102A7009558F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6AF0E4D137102A6009558F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AF0E55137102A7009558F4 /* UIKit.framework in Frameworks */,
+				E6AF0E57137102A7009558F4 /* Foundation.framework in Frameworks */,
+				E6AF0E59137102A7009558F4 /* CoreGraphics.framework in Frameworks */,
+				E6AF0E5B137102A7009558F4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6AF0E45137102A6009558F4 = {
+			isa = PBXGroup;
+			children = (
+				E6AF0E5C137102A7009558F4 /* OrbitTouch */,
+				E6AF0E53137102A7009558F4 /* Frameworks */,
+				E6AF0E51137102A7009558F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6AF0E51137102A7009558F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF0E50137102A7009558F4 /* OrbitTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6AF0E53137102A7009558F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF0E54137102A7009558F4 /* UIKit.framework */,
+				E6AF0E56137102A7009558F4 /* Foundation.framework */,
+				E6AF0E58137102A7009558F4 /* CoreGraphics.framework */,
+				E6AF0E5A137102A7009558F4 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6AF0E5C137102A7009558F4 /* OrbitTouch */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF0E65137102A7009558F4 /* OrbitTouchAppDelegate.h */,
+				E6AF0E66137102A7009558F4 /* OrbitTouchAppDelegate.m */,
+				E6AF0E6B137102A7009558F4 /* MainWindow.xib */,
+				E6AF0E6E137102A7009558F4 /* RootViewController.h */,
+				E6AF0E6F137102A7009558F4 /* RootViewController.m */,
+				E6AF0E71137102A7009558F4 /* RootViewController.xib */,
+				E6AF0E68137102A7009558F4 /* OrbitTouch.xcdatamodeld */,
+				E6AF0E5D137102A7009558F4 /* Supporting Files */,
+			);
+			path = OrbitTouch;
+			sourceTree = "<group>";
+		};
+		E6AF0E5D137102A7009558F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF0E5E137102A7009558F4 /* OrbitTouch-Info.plist */,
+				E6AF0E5F137102A7009558F4 /* InfoPlist.strings */,
+				E6AF0E62137102A7009558F4 /* OrbitTouch-Prefix.pch */,
+				E6AF0E63137102A7009558F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6AF0E4F137102A6009558F4 /* OrbitTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6AF0E76137102A7009558F4 /* Build configuration list for PBXNativeTarget "OrbitTouch" */;
+			buildPhases = (
+				E6AF0E4C137102A6009558F4 /* Sources */,
+				E6AF0E4D137102A6009558F4 /* Frameworks */,
+				E6AF0E4E137102A6009558F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrbitTouch;
+			productName = OrbitTouch;
+			productReference = E6AF0E50137102A7009558F4 /* OrbitTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6AF0E47137102A6009558F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = PortableFrontier;
+			};
+			buildConfigurationList = E6AF0E4A137102A6009558F4 /* Build configuration list for PBXProject "OrbitTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6AF0E45137102A6009558F4;
+			productRefGroup = E6AF0E51137102A7009558F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6AF0E4F137102A6009558F4 /* OrbitTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6AF0E4E137102A6009558F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AF0E61137102A7009558F4 /* InfoPlist.strings in Resources */,
+				E6AF0E6D137102A7009558F4 /* MainWindow.xib in Resources */,
+				E6AF0E73137102A7009558F4 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6AF0E4C137102A6009558F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AF0E64137102A7009558F4 /* main.m in Sources */,
+				E6AF0E67137102A7009558F4 /* OrbitTouchAppDelegate.m in Sources */,
+				E6AF0E6A137102A7009558F4 /* OrbitTouch.xcdatamodeld in Sources */,
+				E6AF0E70137102A7009558F4 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6AF0E5F137102A7009558F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6AF0E60137102A7009558F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6AF0E6B137102A7009558F4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6AF0E6C137102A7009558F4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E6AF0E71137102A7009558F4 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6AF0E72137102A7009558F4 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6AF0E74137102A7009558F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6AF0E75137102A7009558F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E6AF0E77137102A7009558F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrbitTouch/OrbitTouch-Prefix.pch";
+				INFOPLIST_FILE = "OrbitTouch/OrbitTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6AF0E78137102A7009558F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrbitTouch/OrbitTouch-Prefix.pch";
+				INFOPLIST_FILE = "OrbitTouch/OrbitTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6AF0E4A137102A6009558F4 /* Build configuration list for PBXProject "OrbitTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AF0E74137102A7009558F4 /* Debug */,
+				E6AF0E75137102A7009558F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6AF0E76137102A7009558F4 /* Build configuration list for PBXNativeTarget "OrbitTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AF0E77137102A7009558F4 /* Debug */,
+				E6AF0E78137102A7009558F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6AF0E68137102A7009558F4 /* OrbitTouch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6AF0E69137102A7009558F4 /* OrbitTouch.xcdatamodel */,
+			);
+			currentVersion = E6AF0E69137102A7009558F4 /* OrbitTouch.xcdatamodel */;
+			path = OrbitTouch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6AF0E47137102A6009558F4 /* Project object */;
+}
